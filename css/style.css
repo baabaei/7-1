@@ -17,7 +17,13 @@ body{
     left: 580px;
     top: 24px;
     border-radius: 20px;
-    font-size: 10px;}
+    font-size: 10px;
+}
+.search2{
+    background-color:#D2D3D6 ;
+    border: #FFFFFF;
+}
+
 #form{
     margin: 10px;
 
@@ -510,4 +516,24 @@ text-transform: capitalize;
     position: absolute;
     left: 180px;
     top: 30px;
+}
+.sr3{
+    border: none;
+    position: absolute;
+
+    width: 600px;
+
+    height: 44px;
+
+    left: 635px;
+
+    top: 24px;
+
+    background: rgba(210, 211, 214, 0.4);
+    border-radius: 20px;
+    
+
+}
+.bs{
+
 }
