@@ -11,9 +11,12 @@ body{
 }
 button{
     font-family: 'IRANsans';
+
 }
 .arm{
     margin: 20px ;
+    width: 70px;
+    margin: 40px;
 }
 .head{
     display: flex;
@@ -25,9 +28,9 @@ button{
     background: rgba(210, 211, 214, 0.4);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin: 30px;
+    margin: 20px;
     border: none;
-
+    padding-right: 40px;
 }
 .btn-log{
     width: 134px;
@@ -35,16 +38,14 @@ button{
     background: #243A73;
     border-radius: 24px;
     color: #FFFFFF;
-    margin-right: 250px;
-    margin-top: 40px;
+
 }
 .btn-cart{
     border: none;
     background:none;
     color: #243A73;
     font-size: 3em;
-    margin-right: 50px;
-    margin-top: 20px
+
 }
 .hr1{
     width: 800px;
@@ -73,6 +74,9 @@ button{
     border: 1px solid black;
 
 }
+input:focus-visible{
+    border:none;
+}
 .head-icon{
     padding: 10px;
     position: absolute;
@@ -85,6 +89,9 @@ button{
 .png-bime{
     width: 92px;
     height: 92px;
+    position: absolute;
+    top: -60px;
+    right: 25%;
     
 }
 .bime{
@@ -94,8 +101,11 @@ button{
     height: 182px;
     text-align: center;
     font-style: normal;
-    margin: 120px;
-
+    position: relative;
+    padding-top: 56px;
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-bottom: 100px;
 }
 .bime1{
 
@@ -105,4 +115,119 @@ button{
     font-weight: 500;
     font-size: 10px;
     line-height: 25px;
+}
+.btn-2{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.cus{
+    background: #F1F4FB;
+    border-radius: 8px;
+    width: 190px;
+    height: 182px;
+    text-align: center;
+    font-style: normal;
+    position: relative;
+    padding-top: 56px;
+    margin: 150px;
+
+}
+.search-3{
+    flex-grow: 1;
+}
+.bs{
+    position: absolute;
+    right: 175px;
+    top: 33px;
+}
+.cus1{
+
+}
+.cus2{
+    color: #6C6A67;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+
+}
+.png-cus{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -60px;
+    right: 20%;
+}
+.reap{
+    background: #F1F4FB;
+    border-radius: 8px;
+    width: 190px;
+    height: 182px;
+    text-align: center;
+    font-style: normal;
+    position: relative;
+    padding-top: 56px;
+    margin: 150px;
+}
+.reap1{
+
+}
+.reap2{
+    color: #6C6A67;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+}
+.png-reap{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -60px;
+    right: 25%;  
+}
+.aks2{
+    width: 100%;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+
+}
+.sup2{
+    color: #6C6A67;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+}
+.png-sup{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -60px;
+    right: 25%;
+}
+.harag1{
+    width: 120px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 47px;
+    text-align: right;
+    margin-right: 50px;
+    color: #000000;
+
+
+}
+
+.harag2{
+    background: rgba(224, 225, 227, 0.2);
+    border-radius: 20px;
+    height: 350px;
+    width: 1284px;
+}
+.harag{
+    display: flex;
+    justify-content: center;
 }
