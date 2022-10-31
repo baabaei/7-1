@@ -1,22 +1,20 @@
 @font-face {
-    font-family:"IRANsans";
-    src: url("../font/FontsFree-Net-ir_sans.ttf");
+    src: url(../font/IRANSans\(FaNum\).ttf);
+    font-family: 'iransans';
 }
 body{
-    font-family: "IRANsans";
-    position: relative;
-    margin: 0;
-    
     background: #FFFFFF;
-}
-button{
-    font-family: 'IRANsans';
+    font-family: 'iransans';
 
 }
+button , input{
+    font-family:'iransans';
+}
+
 .arm{
-    margin: 20px ;
-    width: 70px;
-    margin: 40px;
+    margin: 24px ;
+    width: 200px;
+
 }
 .head{
     display: flex;
@@ -28,7 +26,7 @@ button{
     background: rgba(210, 211, 214, 0.4);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin: 20px;
+    margin: 24px;
     border: none;
     padding-right: 40px;
 }
@@ -38,17 +36,19 @@ button{
     background: #243A73;
     border-radius: 24px;
     color: #FFFFFF;
-
+    margin-left: 40px;
 }
 .btn-cart{
     border: none;
     background:none;
     color: #243A73;
-    font-size: 3em;
+    font-size: 30px;
+
 
 }
 .hr1{
-    width: 800px;
+
+    width: 1026px;
     margin: auto;
 }
 .category{
@@ -57,9 +57,10 @@ button{
     margin: 20px;
 }
 .laptop{
-    padding: 0 40px 0 40px;
+    font-size: 16px;
+    padding: 0 36px;
 }
-.head{
+.make-your-system{
     width: 100%;
 }
 .btn-head{
@@ -69,8 +70,8 @@ button{
     background-color: #FFFFFF;
     color: #243A73;
     position: absolute;
-    left: 56px;
-    top: 550px;
+    top: 80%;
+    left: 5%;
     border: 1px solid black;
 
 }
@@ -82,10 +83,8 @@ input:focus-visible{
     position: absolute;
     top: 8px;
 }
-.etemad{
-    display: flex;
-    justify-content: center;
-}
+
+
 .png-bime{
     width: 92px;
     height: 92px;
@@ -121,7 +120,7 @@ input:focus-visible{
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    padding: 20px 20px;
+    padding: 0 36px;
 }
 .cus{
     background: #F1F4FB;
@@ -140,8 +139,8 @@ input:focus-visible{
 }
 .bs{
     position: absolute;
-    right: 175px;
-    top: 33px;
+    right: 285px;
+    top: 37px;
 }
 .cus1{
 
@@ -217,17 +216,349 @@ input:focus-visible{
     text-align: right;
     margin-right: 50px;
     color: #000000;
+    margin-top: 78px;
 
 
 }
 
-.harag2{
+.background{
     background: rgba(224, 225, 227, 0.2);
     border-radius: 20px;
     height: 350px;
     width: 1284px;
+    display: flex;
 }
-.harag{
+.position{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.chevron{
+    padding-right: 12px;
+}
+.banner1{
+    width: 100%;
+}
+.CatImg{
+    width: 302px;
+    height: 266px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+.img{
+    width: 130.25px;
+    height: 160.85px;
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+  
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+  
+  
+  
+.CatImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+  
+  
+  
+.category-image{
+    width: 130.25px;
+    height: 160.85px;
+}
+  .backcat{
+    width: 302px;
+    height: 266px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+.name-text{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+/* identical to box height */
+text-align: right;
+
+color: #0B1123;
+padding-right: 16px;
+
+
+}
+.cashes{
+    display: flex;
+}
+.cash{
+    padding-right: 16px;
+}
+.cash2{
+    color: #B9B9B9;
+    padding-right: 16px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.new{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 47px;
+    text-align:right;
+    margin-right: 50px;
+    color: #070C17;
+    margin-top: 80px;
+
+
+}
+.make{
+    position: relative;
+}
+.new-mahsul{
+    display: flex;
+    justify-content: center;
+}
+.first{
+    width: 270px;
+    background: #F9F9FA;
+    height: 386px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+}
+.first-img{
+    display: flex;
+    justify-content: center;
+}
+.lenz{
+    width: 270px;
+    height: 290px;
+    background: #FFFFFF;
+
+    border-radius: 8px 8px 0 0;
+}
+.first-text{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.second-text{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.third-text{
+    text-align: center;
+    margin-top: 90px;
+}
+.four-text{
+    text-align: center;
+    margin-top: 80px;
+}
+.bought{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+
+    /* identical to box height, or 118% */
+    text-align: right;
+    text-transform: capitalize;
+
+    color: #070C17;
+
+    margin-top: 70px;
+    margin-right: 84px;
+}
+.bought2{
+    display: flex;
+    justify-content: center;
+}
+.best-lap{
+    width: 628px;
+    height: 372px;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+}
+.text-buy{
+    text-align:center;
+    
+
+}
+.etemad-andbuy{
+    position: relative;
+}
+.adress{
+    background-color: rgba(108, 106, 103, 0.2);
+    width: 100%;
+    height: 382px;
+    margin-top: 228px;
+    display: flex;
+    position: relative;
+
+}
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #626161;
+    margin-right:83px ;
+    margin-top: 47px;
+
+
+}
+.javab{
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    /* identical to box height */
+    text-align: right;
+
+    color: #0B1123;
+
+
+}
+.ss{
+    display: flex;
+}
+.ss2{
+    display: flex;
+}
+.javab2{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    /* identical to box height */
+    text-align: right;
+
+    color: #0B1123;
+}
+.title2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #626161;
+    margin-right:83px ;
+    margin-top: 16px;
+}
+.list{
+    margin-top: 47px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B1123;
+    text-align: center;
+    margin-right: 50px;
+}
+.list2{
+
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 80px;
+    /* identical to box height */
+
+    color: #0B1123;
+}
+.list3{
+    margin-top: 47px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B1123;
+    text-align: center;
+
+}
+.public{
+    width: 220px;
+    height: 36px;
+    margin: 0;
+}
+.pub{
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    right: 40%;
+}
+.namad2{
+    margin-top: 50%;
+    margin-right: 50px;
+}
+.namad3{
+    margin-top: 50%;
+    margin-right: px;
+}
+.etemad{
+    display: flex;
+    justify-content: center;
+}
+.map{  
+    width: 200px;
+    height: 200px;
+    margin-top: 50%;
+    margin-right: 20px;
 }
