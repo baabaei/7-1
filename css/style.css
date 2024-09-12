@@ -1,539 +1,564 @@
 @font-face {
-    font-family:"IRANsans";
-    src: url("font/FontsFree-Net-ir_sans.ttf");
+    src: url(../font/IRANSans\(FaNum\).ttf);
+    font-family: 'iransans';
 }
 body{
-    font-family: IRANsans;
-    position: relative;
-
     background: #FFFFFF;
+    font-family: 'iransans';
+
+}
+button , input{
+    font-family:'iransans';
+}
+
+.arm{
+    margin: 24px ;
+    width: 200px;
+
+}
+.head{
+    display: flex;
 
 }
 .search{
-    border: 2px solid #D2D3D6;
-    position: absolute;
     width: 600px;
     height: 44px;
-    left: 580px;
-    top: 24px;
+    background: rgba(210, 211, 214, 0.4);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    font-size: 10px;
-}
-.search2{
-    background-color:#D2D3D6 ;
-    border: #FFFFFF;
-}
-
-#form{
-    margin: 10px;
-
-}
-.sr{
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 27px;
-margin: 10PX;
-text-transform: capitalize;
-}
-.login{
-    box-sizing: border-box;
-    position: absolute;
-
-    width: 134px;
-    height: 40px;
-    left: 120px;
-    top: 20px;
-    background: #FFFFFF;
-    border: 1px solid #243A73;
-    border-radius: 20px;
-    justify-content: center;
-}
-.btn{
-    margin-bottom: 10px;
-    margin-top: 7px;
-    margin-right: 25px;
+    margin: 24px;
     border: none;
-    background: none;
+    padding-right: 40px;
 }
-/*.bm{
-    background: none;
+.btn-log{
+    width: 134px;
+    height: 44px;
+    background: #243A73;
+    border-radius: 24px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.btn-cart{
+    border: none;
+    background:none;
+    color: #243A73;
+    font-size: 30px;
+
+
+}
+.hr1{
+
+    width: 1026px;
+    margin: auto;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.laptop{
+    font-size: 16px;
+    padding: 0 36px;
+}
+.make-your-system{
+    width: 100%;
+}
+.btn-head{
+    width: 222px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
     color: #243A73;
     position: absolute;
-    top:7px;
-    left: 70px;
-    font-size: 2.5em;
-}*/
-.hr1{
-    color: #9DA0A7CC;
-    position: relative;
-    top: 100px;
-    width: 900px;
-}
-.bi{
-    margin: 10px;
-}
-.mt1{
-    position: relative;
-    top: 120px;
-    right: 250px;
-
-
-    display: inline-flex;
+    top: 80%;
+    left: 5%;
+    border: 1px solid black;
 
 }
-.bl{
-    font-size: 1.5em;
+input:focus-visible{
+    border:none;
 }
-.mt2{
-    margin-right: 0px;
-    font-size: 15px;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-.mt3{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-.mt4{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-
-.mt5{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-
-}
-.sabad{
-    border: none;
-    background: none;
-    color:#243A73 ;
+.head-icon{
+    padding: 10px;
     position: absolute;
-    top:10px;
-    left: 30px;
-    font-size: 2.5em;
+    top: 8px;
 }
 
-.aks{
+
+.png-bime{
+    width: 92px;
+    height: 92px;
     position: absolute;
-    width: 1358px;
-    height: 484px;
-    margin-left: 5px;
-    top: 205px;
-    background: rgba(0, 0, 0, 0.5);
+    top: -60px;
+    right: 25%;
+    
 }
-.tozih{
-    position: absolute;
-    width: 392px;
-    height: 132px;
-    left: 950px;
-    top: 801px;
+.bime{
+    background: #F1F4FB;
+    border-radius: 8px;
+    width: 190px;
+    height: 182px;
+    text-align: center;
     font-style: normal;
+    position: relative;
+    padding-top: 56px;
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.bime1{
+
+}
+.bime-2{
+    color: #6C6A67;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 10px;
+    line-height: 25px;
+}
+.btn-2{
+    display: flex;
+    justify-content: flex-start;
     text-align: center;
-    color: #000000;
-    border: 1px solid #FFFFFF;
-
-
-
+    align-items: center;
+    padding: 0 36px;
 }
-
-
-.gua {
-    position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 750px;
-    top: 781px;
-    border-radius: 100%;
-    background: #E4E9F6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-.png1{
-    position: absolute;
-    top: 33px;
-    left: 35px;
-}
-.bime {
-    position: absolute;
+.cus{
+    background: #F1F4FB;
+    border-radius: 8px;
     width: 190px;
-    height: 138px;
-    left: 718px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
+    height: 182px;
     text-align: center;
-
-}
-.bime2{
+    font-style: normal;
     position: relative;
-    top: 50px;
+    padding-top: 56px;
+    margin: 150px;
 
 }
-.bime4{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
+.search-3{
+    flex-grow: 1;
+}
+.bs{
+    position: absolute;
+    right: 285px;
+    top: 37px;
+}
+.cus1{
+
+}
+.cus2{
     color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 44px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
 
 }
-.dea{
+.png-cus{
+    width: 92px;
+    height: 92px;
     position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 532px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    top: -60px;
+    right: 20%;
 }
-.png2{
-     position: absolute;
-    top: 33px;
-    left: 35px;
-}
-.de{
-      position: absolute;
+.reap{
+    background: #F1F4FB;
+    border-radius: 8px;
     width: 190px;
-    height: 138px;
-    left: 500px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
+    height: 182px;
     text-align: center;
-}
-.de2{
-     position: relative;
-    top: 50px;
-}
-.de3{
-      font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 44px;
-
-}
-.rea{
-      position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 313px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.png3{
-     position: absolute;
-    top: 31px;
-    left: 35px;
-}
-.re{
-     position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 282px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-.re2{
-       position: relative;
-    top: 50px;
-}
-.re3{
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 25px;
+    position: relative;
+    padding-top: 56px;
+    margin: 150px;
 }
-.sup{
-      position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 91px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.png4{
-     position: absolute;
-    top: 18px;
-    left: 18px;
-}
-.su{
-     position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 64px;
-    top: 845px;
+.reap1{
 
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
 }
-.su2{
-       position: relative;
-    top: 50px;
-}
-.su3{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
+.reap2{
     color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 37px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
 }
-.arrow1{
+.png-reap{
+    width: 92px;
+    height: 92px;
     position: absolute;
-    left: 0px;
-    top: 800px;
-    border: none;
-    background: none;
-    font-size: 2.5em;
+    top: -60px;
+    right: 25%;  
 }
 .aks2{
-    position: absolute;
-    width: 1358px;
+    width: 100%;
     height: 480px;
-
-    top: 1007px;
-
     background: rgba(0, 0, 0, 0.5);
-    margin: 0;
+    margin-bottom: 100px;
+
 }
-.harag{
+.sup2{
+    color: #6C6A67;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+}
+.png-sup{
+    width: 92px;
+    height: 92px;
     position: absolute;
+    top: -60px;
+    right: 25%;
+}
+.harag1{
     width: 120px;
     height: 47px;
-    left: 1160px;
-    top: 1552px;
-
-    font-family: 'IRANSans';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 47px;
     text-align: right;
-
+    margin-right: 50px;
     color: #000000;
+    margin-top: 78px;
 
 
 }
-.harag2{
-    position: absolute;
-    width: 1200px;
-    height: 300px;
-    left: 78px;
-    top: 1632px;
 
+.background{
     background: rgba(224, 225, 227, 0.2);
     border-radius: 20px;
+    height: 350px;
+    width: 1284px;
+    display: flex;
 }
-.harag3 {
-    position: relative;
-    top: 18px;
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chevron{
+    padding-right: 12px;
+}
+.banner1{
+    width: 100%;
+}
+.CatImg{
     width: 302px;
     height: 266px;
-    right: 20px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
-.jpg1{
+.img{
     width: 130.25px;
-    height: 150px;
-    justify-items: center;
+    height: 160.85px;
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+  
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+  
+  
+  
+.CatImage{
     position: relative;
-    top: 15px;
-    right: 82px;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
 }
-.hr2{
-    border: 1px solid #E6E6E6;
-    position: relative;
-    top: 15px;
+  
+  
+  
+.category-image{
+    width: 130.25px;
+    height: 160.85px;
 }
-.ipad{
-    position: relative;
-    right: 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-
-    text-align: right;
-    color: #000000;
-
-
-}
-.ipad2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-
-    color: #000000;
-    position: relative;
-    right: 10px;
-    bottom: 25px;
-
-}
-.ipad3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: #B9B9B9;
-    position: relative;
-    bottom: 90px;
-    right: 160px;
-
-
-}
-#link{
-    text-decoration: none;
-}
-.harag5{
-    position: absolute;
-    bottom: 18px;
+  .backcat{
     width: 302px;
     height: 266px;
-    right: 360px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
-}
-.jpg2{
-       width: 130.25px;
-    height: 150px;
-    justify-items: center;
-    position: relative;
-    top: 15px;
-    right: 82px;
-}
-.ult1{
-    position: relative;
-    right: 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    top: 13px;
-    text-align: right;
-    color: #000000;
+    margin-bottom: 10px;
+  }
+.name-text{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+/* identical to box height */
+text-align: right;
+
+color: #0B1123;
+padding-right: 16px;
+
 
 }
-.ult2{
-     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-
-    color: #000000;
-    position: relative;
-    right: 10px;
-    top: 25px;
+.cashes{
+    display: flex;
 }
-.ult3{
-     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 27px;
-    top: 25px;
+.cash{
+    padding-right: 16px;
+}
+.cash2{
     color: #B9B9B9;
+    padding-right: 16px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.new{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 47px;
+    text-align:right;
+    margin-right: 50px;
+    color: #070C17;
+    margin-top: 80px;
+
+
+}
+.make{
     position: relative;
-    right: 15px;
 }
-.apple{
-    position: absolute;
-    width: 85.07px;
-    height: 81px;
-    left: 2px;
-
+.new-mahsul{
+    display: flex;
+    justify-content: center;
 }
-.logo{
-    height: 100px;
+.first{
+    width: 270px;
+    background: #F9F9FA;
+    height: 386px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+}
+.first-img{
+    display: flex;
+    justify-content: center;
+}
+.lenz{
+    width: 270px;
+    height: 290px;
     background: #FFFFFF;
-    position: absolute;
-    top: 1950px;
-    width: 1200px;
-    right:75px ;
+
+    border-radius: 8px 8px 0 0;
 }
-.sam{
-    width: 76.06px;
-    height: 40px;
-    position: absolute;
-    left: 90px;
-    top: 25px;
+.first-text{
+    text-align: center;
+    margin-top: 70px;
+
 }
-.nikon{
-    width: 68.24px;
-    height: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    left: 180px;
-    top: 30px;
+.second-text{
+    text-align: center;
+    margin-top: 50px;
+
 }
-.sr3{
-    border: none;
-    position: absolute;
+.third-text{
+    text-align: center;
+    margin-top: 90px;
+}
+.four-text{
+    text-align: center;
+    margin-top: 80px;
+}
+.bought{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
 
-    width: 600px;
+    /* identical to box height, or 118% */
+    text-align: right;
+    text-transform: capitalize;
 
-    height: 44px;
+    color: #070C17;
 
-    left: 635px;
-
-    top: 24px;
-
-    background: rgba(210, 211, 214, 0.4);
-    border-radius: 20px;
+    margin-top: 70px;
+    margin-right: 84px;
+}
+.bought2{
+    display: flex;
+    justify-content: center;
+}
+.best-lap{
+    width: 628px;
+    height: 372px;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+}
+.text-buy{
+    text-align:center;
     
 
 }
-.bs{
+.etemad-andbuy{
+    position: relative;
+}
+.adress{
+    background-color: rgba(108, 106, 103, 0.2);
+    width: 100%;
+    height: 382px;
+    margin-top: 228px;
+    display: flex;
+    position: relative;
 
+}
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #626161;
+    margin-right:83px ;
+    margin-top: 47px;
+
+
+}
+.javab{
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    /* identical to box height */
+    text-align: right;
+
+    color: #0B1123;
+
+
+}
+.ss{
+    display: flex;
+}
+.ss2{
+    display: flex;
+}
+.javab2{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    /* identical to box height */
+    text-align: right;
+
+    color: #0B1123;
+}
+.title2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #626161;
+    margin-right:83px ;
+    margin-top: 16px;
+}
+.list{
+    margin-top: 47px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B1123;
+    text-align: center;
+    margin-right: 50px;
+}
+.list2{
+
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 80px;
+    /* identical to box height */
+
+    color: #0B1123;
+}
+.list3{
+    margin-top: 47px;
+    
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B1123;
+    text-align: center;
+
+}
+.public{
+    width: 220px;
+    height: 36px;
+    margin: 0;
+}
+.pub{
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    right: 40%;
+}
+.namad2{
+    margin-top: 50%;
+    margin-right: 50px;
+}
+.namad3{
+    margin-top: 50%;
+    margin-right: px;
+}
+.etemad{
+    display: flex;
+    justify-content: center;
+}
+.map{  
+    width: 200px;
+    height: 200px;
+    margin-top: 50%;
+    margin-right: 20px;
 }
